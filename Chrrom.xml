@@ -1,0 +1,16 @@
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="browser" value="chrome"></parameter>
+
+		<groups>
+
+			<run name="sanity" />
+
+		</groups>
+
+
+		<classes>
+			<class name="com.Batch8.Parameterss" />
+		</classes>
+	</test>
+</suite> 
